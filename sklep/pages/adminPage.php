@@ -31,6 +31,7 @@
             <th>isAdmin</th>
         </tr>
         <?php
+        echo "Test";
             require_once '../utils/Db.php';
             $users = DB::getAllUsers();
             foreach($users as $user) {

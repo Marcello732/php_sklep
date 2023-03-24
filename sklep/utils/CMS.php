@@ -3,7 +3,7 @@
     class CMS {
         static function getContent($id_key) {
             $language = isset($_COOKIE["language"]) ? $_COOKIE["language"] : "en";
-            
+            $test = 0;
             $db = new Db();             
             return $db->getContentById($id_key);
 
